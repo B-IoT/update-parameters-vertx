@@ -76,3 +76,8 @@ tasks {
 
 
 
+tasks.test { onlyIf { project.hasProperty("mySkipTests") } }
+
+
+
+
