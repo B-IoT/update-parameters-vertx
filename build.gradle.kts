@@ -16,11 +16,6 @@ repositories {
   jcenter()
 }
 
-jar {
-    baseName = 'app'
-    version = '1.0.0-SNAPSHOT'
-}
-
 val kotlinVersion = "1.3.72"
 val vertxVersion = "4.0.0.CR1"
 val junitJupiterVersion = "5.6.0"
